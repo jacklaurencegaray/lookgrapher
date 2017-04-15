@@ -1,0 +1,35 @@
+.global-overlay {
+  position: fixed;
+  top: 0;
+  left: -100vw;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  opacity: 0;
+}
+#constellationel {
+  z-index: 1;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.overlay.skew-part {
+  -webkit-transform: skew(-25deg, 0deg);
+  -moz-transform: skew(-25deg, 0deg);
+  -ms-transform: skew(-25deg, 0deg);
+  -o-transform: skew(-25deg, 0deg);
+  transform: skew(-25deg, 0deg);
+}
+.overlay {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  -moz-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  -ms-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  -o-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+}
