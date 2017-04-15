@@ -8,7 +8,7 @@ Open index.php in your server and voila.
 
 ### Prerequisites
 
-PHP ver > 5.6
+PHP ver >= 5.6
 
 ## Examples
 
